@@ -23,7 +23,7 @@
         "assets": [
           "apps/team-page/src/favicon.ico",
           "apps/team-page/src/assets",
-          "apps/team-page/src/manifest.webmanifest"
+          "apps/team-page/src/manifest.json"
         ],
         "styles": [
           "apps/team-page/src/styles.scss"
