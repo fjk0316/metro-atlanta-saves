@@ -8,16 +8,12 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:application",
-      "outputs": [
-        "{options.outputPath}"
-      ],
+      "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/apps/team-page",
         "index": "apps/team-page/src/index.html",
         "browser": "apps/team-page/src/main.ts",
-        "polyfills": [
-          "zone.js"
-        ],
+        "polyfills": ["zone.js"],
         "tsConfig": "apps/team-page/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
@@ -25,9 +21,7 @@
           "apps/team-page/src/assets",
           "apps/team-page/src/manifest.json"
         ],
-        "styles": [
-          "apps/team-page/src/styles.scss"
-        ],
+        "styles": ["apps/team-page/src/styles.scss"],
         "scripts": [],
         "server": "apps/team-page/src/main.server.ts",
         "prerender": true,
