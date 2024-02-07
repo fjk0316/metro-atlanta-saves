@@ -47,5 +47,11 @@ export default class TeamComponent {
       roles: ['Team Lead', 'Front-end Developer', 'Back-end Developer'],
       img: 'assets/team/justin-mclellan.jpg',
     },
+    {
+      name: 'Taimoor Chatha',
+      experience: '7+ years working in the industry as a full stack developer using Angular, React, Java, C++, PHP, Python, MySQL and MongoDB.',
+      roles: ['Front-end Developer', 'Back-end Developer'],
+      img: 'assets/team/taimoor-chatha.jpg',
+    },
   ]);
 }
