@@ -1,13 +1,23 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { LayoutComponent } from './shared/ui/layout/layout.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
-  selector: 'metro-atlanta-saves-root',
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss',
+  imports: [RouterModule, LayoutComponent],
+  selector: 'mas-root',
+  template: `
+    <mas-layout>
+      <router-outlet />
+    </mas-layout>
+  `,
+  styles: [
+    `
+      :host {
+        display: block;
+      }
+    `,
+  ],
 })
 export class AppComponent {
   title = 'team-page';

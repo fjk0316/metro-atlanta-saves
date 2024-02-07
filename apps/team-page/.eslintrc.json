@@ -13,7 +13,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "metroAtlantaSaves",
+            "prefix": "mas",
             "style": "camelCase"
           }
         ],
@@ -21,7 +21,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "metro-atlanta-saves",
+            "prefix": "mas",
             "style": "kebab-case"
           }
         ]

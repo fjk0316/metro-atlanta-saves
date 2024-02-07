@@ -18,6 +18,7 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           "apps/team-page/src/favicon.ico",
+          "apps/team-page/src/robots.txt",
           "apps/team-page/src/assets",
           "apps/team-page/src/manifest.json"
         ],
@@ -49,7 +50,9 @@
         "development": {
           "optimization": false,
           "extractLicenses": false,
-          "sourceMap": true
+          "sourceMap": true,
+          "prerender": false,
+          "ssr": false
         }
       },
       "defaultConfiguration": "production"

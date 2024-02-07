@@ -46,7 +46,16 @@
       "e2eTestRunner": "playwright",
       "linter": "eslint",
       "style": "scss",
-      "unitTestRunner": "jest"
+      "unitTestRunner": "jest",
+      "prefix": "mas"
+    },
+    "@nx/angular:component": {
+      "style": "scss",
+      "displayBlock": true,
+      "inlineStyle": true,
+      "inlineTemplate": true,
+      "standalone": true,
+      "prefix": "mas"
     }
   },
   "nxCloudAccessToken": "OWIzODI3YjQtZGY5Zi00YTBlLWEyYmQtMzRlZjQxYWM4ZWNhfHJlYWQtd3JpdGU="
