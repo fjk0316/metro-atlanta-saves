@@ -53,5 +53,11 @@ export default class TeamComponent {
       roles: ['Front-end Developer', 'Back-end Developer'],
       img: 'assets/team/taimoor-chatha.jpg',
     },
+    {
+      name: 'Amadhya Anand',
+      experience: '3+ years working in the industry with a focus on fullstack development using Flask, NodeJS, MySql, PostgreSQL, Firebase, and React',
+      roles: ['Fullstack Developer'],
+      img: 'assets/team/amadhya-anand.jpg',
+    }
   ]);
 }
