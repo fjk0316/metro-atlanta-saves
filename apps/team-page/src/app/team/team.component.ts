@@ -58,6 +58,13 @@ export default class TeamComponent {
       experience: '3+ years working in the industry with a focus on fullstack development using Flask, NodeJS, MySql, PostgreSQL, Firebase, and React',
       roles: ['Fullstack Developer'],
       img: 'assets/team/amadhya-anand.jpg',
+    },
+    {
+      name: 'JIANKUN',
+      experience: '3+ years working in the industry with a focus on fullstack development using Flask, NodeJS, MySql, PostgreSQL, Firebase, and React',
+      roles: ['Fullstack Developer'],
+      img: 'assets/team/amadhya-anand.jpg',
     }
+  
   ]);
 }
